@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "t-bank-24"
+version = "0.1.0"
+description = ""
+authors = ["Larisa Latunova <lll27494741@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "1.52.2"
+streamlit = "1.39.0"
+bs4 = "0.0.2"
+pypdf2 = "3.0.1"
+opuslib = "3.0.1"
+mutagen = "1.45.1"
+grpcio = "^1.67.0"
+protobuf = "3.20.0"
+googleapis-common-protos = "1.6.0"
+httpx = {extras = ["http2"], version = "^0.27.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

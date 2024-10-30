@@ -1,0 +1,11 @@
+openai
+streamlit
+bs4
+PyPDF2
+opuslib
+PyAudio
+mutagen
+grpcio
+protobuf==3.20.0
+googleapis-common-protos
+httpx[http2]
